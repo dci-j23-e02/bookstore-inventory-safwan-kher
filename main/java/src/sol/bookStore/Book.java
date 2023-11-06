@@ -17,9 +17,9 @@ public class Book {
 
   // Empty constructor for more flexibility
 
-  public Book() {
+  //public Book() {
 
-  }
+ // }
 
   //  getters and setters to access and modify attributes
 
