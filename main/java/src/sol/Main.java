@@ -1,4 +1,4 @@
-package com;
+package sol;
 
 public class Main {
 
