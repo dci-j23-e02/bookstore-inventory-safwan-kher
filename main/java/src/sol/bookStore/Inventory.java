@@ -6,7 +6,21 @@ public class Inventory {
 // declare a private 1D array of Book objects ( Or ArrayList)
   private List<Book> books; // more flexible to be able to instantiate by either 'ArrayList' or 'LinkedList'
 
-// Include a method to add a book (which should add a Book object to the array)
+// Adding a constructor
+
+
+  public Inventory(List<Book> books) {
+    this.books = books;
+  }
+
+// Getters
+
+
+  public List<Book> getBooks() {
+    return books;
+  }
+
+  // Include a method to add a book (which should add a Book object to the array)
   public void addBook(Book book) {
     Book bookToAdd = this.searchBookByTitle(book.getTitle());
     if(book == null){
