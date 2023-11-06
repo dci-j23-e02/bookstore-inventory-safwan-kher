@@ -1,2 +1,5 @@
-package sol.bookStore;public class Inventory {
+package sol.bookStore;
+
+public class Inventory {
+
 }
